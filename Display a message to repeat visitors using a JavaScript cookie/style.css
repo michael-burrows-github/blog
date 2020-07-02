@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+#welcome {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background: rgb(14, 108, 170);
+  color: #fff;
+  text-align: center;
+}
+#welcome a {
+  color: #fff;
+}
