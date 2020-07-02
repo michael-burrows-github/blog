@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+}
+body {
+  background: #fff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.icon-scroll {
+  width: 20px;
+  height: 30px;
+  background: #ccc;
+  border: 2px solid #bbb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  box-shadow: 3px 3px 5px -5px #000;
+}
+
+.icon-scroll::before {
+  content: "";
+  width: 4px;
+  height: 10px;
+  background: #eee;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.icon-scroll::after {
+  content: "";
+  width: 4px;
+  height: 3px;
+  background-color: #bbb;
+  position: absolute;
+  display: block;
+  animation: scroll ease 1s infinite;
+}
+@keyframes scroll {
+  from {
+    top: 5px;
+  }
+  to {
+    top: 18px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
