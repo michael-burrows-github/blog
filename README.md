@@ -1,3 +1,4 @@
-- Get the domain name from a string containing a URL in JavaScript -> [ARTICLE](https://www.michaelburrows.xyz/get-domain-name-url-javascript/)
+- Create a reading progress indicator (on scroll) in JavaScript -> [ARTICLE](https://www.michaelburrows.xyz/reading-progress-indicator/)
 - Design an animated scrolling mouse icon with CSS -> [ARTICLE](https://www.michaelburrows.xyz/animated-scrolling-mouse-icon/)
-- Display a message to repeat visitors using a JavaScript cookie -> [ARTICLE](https://www.michaelburrows.xyz/repeat-visitor-cookie-message/)
+- Display a message to returning visitors using a JavaScript cookie -> [ARTICLE](https://www.michaelburrows.xyz/repeat-visitor-cookie-message/)
+- Get the domain name from a string containing a URL in JavaScript -> [ARTICLE](https://www.michaelburrows.xyz/get-domain-name-url-javascript/)
