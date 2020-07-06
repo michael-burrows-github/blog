@@ -1,0 +1,17 @@
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  z-index: 99;
+  background-color: #b22222;
+  transition: width 1s;
+}
+
+article {
+  width: 640px;
+  margin: auto;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
