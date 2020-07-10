@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Client side form validation using only HTML5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Client side form validation using only HTML</legend>
+      <div>
+        <label for="email">Email: <abbr title="required" aria-label="required">*</abbr></label>
+        <input id="email" type="email" name="email" required>
+      </div>
+      <div>      
+        <label for="username">Username: <abbr title="required" aria-label="required">*</abbr></label>
+        <input id="username" type="text" name="username" required pattern="^[a-z0-9]{3,15}$" title="Username may only contain letters and numbers">
+      </div>   
+      <div>
+        <label for="password">Password: <abbr title="required" aria-label="required">*</abbr></label>
+        <input id="password" type="password" name="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,25}$">
+      </div>
+      <div>
+        <label for="url">URL: <abbr title="required" aria-label="required">*</abbr></label>
+        <input id="url" type="url" name="url" required pattern="https?://.+"> 
+      </div>
+      <div>
+        <label for="age">Age: <abbr title="required" aria-label="required">*</abbr></label>
+        <input id="age" type="number" name="age" required min="18" max="36"> 
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>

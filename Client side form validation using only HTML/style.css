@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+legend {
+  padding: 0 10px;
+}
+fieldset {
+  padding: 30px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+form div {
+  margin-bottom: 10px;
+}
+input {
+  width: 200px;
+  padding: 5px;
+  border: 2px solid #eee;
+  border-radius: 4px;
+}
+input:valid,
+input:in-range {  
+  border-color: green;
+}
+input:invalid,
+input:out-of-range {
+  border-color: red;  
+}
