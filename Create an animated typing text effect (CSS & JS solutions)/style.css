@@ -1,0 +1,32 @@
+body {
+  background: #1a1a1a;
+  color: #fff;
+  font-family: monospace;
+  padding: 50px;
+}
+#type-css {
+  position: absolute;
+}
+#type-css h1 {
+  overflow: hidden;
+  line-height: 1;
+  white-space: nowrap;
+  border-right: 3px solid #fff;
+  animation: type 3.5s steps(35, end), cursor 1s step-end infinite;
+}
+#type-js {
+  position: relative;
+  top: 50px; 
+  display: inline-block;
+  line-height: 1;
+  border-right: 3px solid #fff;  
+  animation: cursor 1s step-end infinite;
+}
+@keyframes type {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes cursor {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}
