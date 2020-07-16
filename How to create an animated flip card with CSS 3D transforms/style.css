@@ -1,0 +1,40 @@
+body {
+  padding: 30px;
+  background-color: lightyellow;
+  font-family: sans-serif;
+}
+
+.flip {
+  width: 150px;
+  height: 150px; 
+  text-align: center;
+  perspective: 600px;
+  float: left;  
+  margin: 30px;
+}
+.flip-content {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+}
+.flip:hover .flip-content {
+  transform: rotateY(180deg);
+  transition: transform 0.3s;
+}
+.flip-front, .flip-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  line-height: 150px;
+  backface-visibility: hidden;
+  background-color: lightseagreen;
+  color: #fff;  
+  border: 6px solid lightcoral;
+  box-shadow: 6px 6px lightseagreen;
+}
+.flip-back {
+  transform: rotateY(180deg);
+  border: 6px solid lightseagreen;
+  box-shadow: 6px 6px lightcoral;
+}
