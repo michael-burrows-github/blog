@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50vh;
+}
