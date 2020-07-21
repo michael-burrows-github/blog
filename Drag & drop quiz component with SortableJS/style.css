@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+#quiz {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+#quiz li {
+  display: block;
+  background-color: lightsteelblue;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  cursor: move;
+  cursor: -webkit-grabbing;
+}
+#quiz li.sortable-chosen {
+  background-color: lightslategray;
+}
