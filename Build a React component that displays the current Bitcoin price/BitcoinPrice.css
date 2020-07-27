@@ -1,0 +1,17 @@
+.btc {
+  background-color: darkcyan;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.btc-logo {
+  height: 25px;
+  margin-right: 5px;
+}
+.btc-price {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
