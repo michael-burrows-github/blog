@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+article {
+  max-width: 760px;
+  margin: auto;
+}
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#header {
+  height: 30vh;
+  background: url(https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+}
+#nav {
+  background-color: #000;
+  top: 0;
+  width: 100%;
+}
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+#nav li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav ul li a {
+  color: #ffd600;
+  transition: all 0.4s;
+}
+#nav ul li img {
+  height: 96px;
+  transition: height 0.4s;
+}
+#nav.fixed {
+  position: fixed;
+  box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
+}
+#nav.fixed ul li img {
+  height: 36px;
+}
+#nav.fixed ul li a {
+  font-size: 14px;
+}
