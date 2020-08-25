@@ -27,3 +27,5 @@
 - Build a React component that pulls data from Google Sheets -> [ARTICLE](https://www.michaelburrows.xyz/react-google-sheets/) | [CODE](https://github.com/michael-burrows-github/blog/tree/master/Build%20a%20React%20component%20that%20pulls%20data%20from%20Google%20Sheets)
 - Create an autocomplete textbox using vanilla JavaScript -> [ARTICLE](https://www.michaelburrows.xyz/autocomplete-textbox-javascript/) | [CODE](https://github.com/michael-burrows-github/blog/tree/master/Create%20an%20autocomplete%20textbox%20using%20vanilla%20JavaScript)
 - Scrape sever-side rendered HTML content with JavaScript -> [ARTICLE](https://www.michaelburrows.xyz/scrape-sever-side-content-javascript/) | [CODE](https://github.com/michael-burrows-github/blog/tree/master/Scrape%20sever-side%20rendered%20HTML%20content%20with%20JavaScript)
+- Create and deploy a dynamic website with Next.js -> [ARTICLE](https://www.michaelburrows.xyz/create-deploy-dynamic-nextjs-website/) | [CODE](https://github.com/michael-burrows-github/blog/tree/master/Create%20and%20deploy%20a%20dynamic%20website%20with%20Next)
+
