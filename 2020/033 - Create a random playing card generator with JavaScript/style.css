@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+.card {
+  font-family: sans-serif;
+  position: relative;
+  width: 105px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card.spades,
+.card.clubs {
+  color: black;
+}
+.card.hearts,
+.card.diamonds {
+  color: red;
+}
+
+.card-value-suit {
+  display: inline-block;
+  position: absolute;
+}
+.card-value-suit.top {
+  top: 5px;
+  left: 5px;
+}
+.card-value-suit.bot {
+  transform: rotate(180deg);
+  bottom: 5px;
+  right: 5px;
+}
+.card-suit {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25%;
+}
