@@ -1,0 +1,60 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: peru;
+  transition: left 300ms ease-out;
+}
+.sidebar.active {
+  left: 0;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar li {
+  list-style: none;
+}
+.sidebar li a {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  color: #fff;
+}
+
+.hamburger {
+  border: none;
+  outline: 0;
+  width: 50px;
+  position: absolute;
+  right: -50px;
+  background-color: peru;
+}
+
+.hamburger:after,
+.hamburger:before,
+.hamburger div {
+  background-color: #fff;
+  height: 5px;
+  margin: 7px 0;
+  border-radius: 3px;
+  content: "";
+  display: block;
+  transition: all 300ms ease-in-out;
+}
+
+.sidebar.active .hamburger:before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.sidebar.active .hamburger::after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.sidebar.active .hamburger div {
+  transform: scale(0);
+}

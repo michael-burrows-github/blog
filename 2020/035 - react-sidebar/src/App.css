@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page {
+  background-color: #efefef;
+  max-width: 600px;
+  padding: 50px;
+  margin: auto;
+}
