@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Create a simple password strength indicator with JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script>
+  </head>
+  <body>
+    <form>
+      <div id="password">
+        <label for="password-input">Password</label>
+        <input
+          id="password-input"
+          name="password-input"
+          type="password"          
+          required
+        />
+        <div id="password-strength"><span></span></div>
+        <p id="password-feedback"></p>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

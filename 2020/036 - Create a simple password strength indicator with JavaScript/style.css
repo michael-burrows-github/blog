@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif; 
+}
+#password {
+  width: 250px;
+}
+#password label {
+  display: block;
+}
+#password-input {
+  width: 230px;
+  padding: 10px;
+  margin: 10px 0 5px 0;
+}
+#password-strength {
+  height: 5px;
+  width: 100%;
+  display: block;
+  background-color: #ccc;
+}
+#password-strength span {
+  display: block;
+  height: 5px;
+  border-radius: 2px;
+  transition: all 500ms ease;
+}
+.strength-0 span {
+  background-color: red;
+  width: 5%;
+}
+.strength-1 span {
+  background-color: orangered;
+  width: 25%;
+}
+.strength-2 span {
+  background-color: orange;
+  width: 50%;
+}
+.strength-3 span {
+  background-color: yellowgreen;
+  width: 75%;
+}
+.strength-4 span {
+  background-color: green;
+  width: 100%;
+}
