@@ -10,11 +10,11 @@ app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
-  host: "smtp.live.com",
+  host: "smtp.example.com",
   port: 587,
   auth: {
-    user: "michaelburrows@outlook.com",
-    pass: "rumpig#57",
+    user: "username@example.com",
+    pass: "password",
   },
 });
 
@@ -32,7 +32,7 @@ router.post("/contact", (req, res) => {
   const message = req.body.message; 
   const mail = {
     from: name,
-    to: "michaelburrows@outlook.com",
+    to: "username@example.com",
     subject: "Contact Form Message",
     html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
   };
