@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background: url("https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 4rem;
+  text-shadow: 1px 1px 5px #000;  
+  margin: 0;
+}
+p {
+  font-size: 1.2rem;  
+  text-shadow: 1px 1px 2px #000;
+}
+a {
+  color: #fff;
+}
+#countdown {
+  max-width: 600px;
+}
+#countdown ul {
+  margin: 5% 0 0 0;
+  padding: 0;
+  display: flex;
+  gap: 5%;
+}
+#countdown ul li {
+  flex: 25%;
+  padding: 5%;
+  margin: 0;
+  list-style: none;
+  background: #001f2f;
+  border-radius: 5px;
+}
+#countdown ul li span {
+  display: block;
+  font-size: 3rem;
+}
