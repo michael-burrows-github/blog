@@ -1,0 +1,12 @@
+{
+  "name": "funny-quotes",
+  "version": "0.1.0",  
+  "main": "index.js",
+  "license": "MIT", 
+  "description": "Funny quotes in your console.",
+  "keywords": [
+    "funny",
+    "quote",
+    "console"
+  ]
+}
