@@ -1,3 +1,4 @@
+//https://parade.com/940913/parade/funny-quotes/
 const quotes = [
   '"I’m sick of following my dreams, man. I’m just going to ask where they’re going and hook up with em later." — Mitch Hedberg',
   '"Before you marry a person, you should first make them use a computer with slow Internet to see who they really are." - Will Ferrell',
